@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <div class = "features"> <!-- Это значение используем в main.css -->
+        <h1>{{ title }}</h1>  <!-- сюда передаем данные из файла views.py -->
+        <p>Данный проект представлен в теством режиме.</p>
+    </div>
+
+{% endblock %}
